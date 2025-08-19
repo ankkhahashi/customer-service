@@ -1,0 +1,10 @@
+package com.vaultapp.customer.repository;
+
+import com.vaultapp.customer.entity.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepository extends JpaRepository<Customer, Integer> {
+
+    // Custom query methods can be defined here if needed
+
+}
